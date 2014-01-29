@@ -47,8 +47,6 @@
     [self.expYear setReturnKeyType:UIReturnKeyNext];
     [self.cvvNumber setReturnKeyType:UIReturnKeyDone];
     
-    [self.cvvNumber ]
-    
     [self.errorCCnum setHidden:YES];
     [self.errorCVV setHidden:YES];
     [self.errorDate setHidden:YES];
@@ -63,23 +61,6 @@
 
 
 # pragma mark - Data entry editing
-
-//- (BOOL)TEXTf
-
--(void)textFieldDidBeginEditing:(UITextField *)textField
-{
-    if (textField == ccNumber) {
-        NSLog(@"CC NUM");
-    }
-    else if(textField == expYear)
-    {
-        NSLog(@"EXP Year");
-    }
-    else
-    {
-        NSLog(@"other");
-    }
-}
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
@@ -140,6 +121,14 @@
                 textField.layer.borderColor=[[UIColor redColor]CGColor];
                 textField.layer.borderWidth= 1.0f;
                 [self.errorDate setHidden:NO];
+                return NO;
+            }
+            else {
+                textField.layer.masksToBounds=YES;
+                textField.layer.borderColor=[[UIColor blackColor]CGColor];
+                textField.layer.borderWidth= 1.0f;
+                [self.errorDate setHidden:YES];
+                return YES;
             }
         }
         
@@ -170,6 +159,14 @@
                 textField.layer.borderColor=[[UIColor redColor]CGColor];
                 textField.layer.borderWidth= 1.0f;
                 [self.errorDate setHidden:NO];
+                return NO;
+            }
+            else {
+                textField.layer.masksToBounds=YES;
+                textField.layer.borderColor=[[UIColor blackColor]CGColor];
+                textField.layer.borderWidth= 1.0f;
+                [self.errorDate setHidden:YES];
+                return YES;
             }
         }
         
@@ -231,6 +228,8 @@
     return YES;
 }
 
+# pragma mark - Keyboard twitching (no standard "Next"and "Done" for numberpads
+
 // Navigate through text fields
 //-(BOOL)textFieldShouldReturn:(UITextField*)textField
 //{
@@ -243,11 +242,34 @@
 //    
 //return YES;
 //}
+//
+//- (void)textFieldDidEndEditing:(UITextField *)textField {
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(keyboardWillShow:)
+//                                                 name:UIKeyboardWillShowNotification
+//                                               object:nil];
+//}
+//
+//-(void)doneWithNumberPad{
+//    NSString *numberFromTheKeyboard = numberTextField.text;
+//    [numberTextField resignFirstResponder];
+//}
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    return YES;
+//- (IBAction)dismissKeyboard:(id)sender;
+//{
+//    [ccNumber becomeFirstResponder];
+//    [ccNumber resignFirstResponder];
+//}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [ccNumber resignFirstResponder];
+    [expYear resignFirstResponder];
+    [expMonth resignFirstResponder];
+    [cvvNumber resignFirstResponder];
 }
+
+# pragma mark - first 6 number CC number validity
 
 // Method to check if the credit card number the user entered is correct.
 // - Checks while entering to see if character set is valid9
@@ -324,6 +346,9 @@
     // Otherwise, the user has entered an invalid number.
     return NO;
 }
+
+
+#pragma mark - Perform Luhn algorithm and submit
 
 - (IBAction)submitData:(id)sender
 {

@@ -24,6 +24,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *errorCVV;
 
 - (IBAction)submitData:(id)sender;
-//- (BOOL)performCardCheck:(NSString*) currString;
 
 @end

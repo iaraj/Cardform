@@ -2,6 +2,8 @@
 //  Luhn.m
 //  Cardform
 //
+//  Alogoirthm creation by Max Kramer
+//  https://github.com/MaxKramer/ObjectiveLuhn
 //  Created by Issa Araj on 1/28/14.
 //  Copyright (c) 2014 Issa Araj. All rights reserved.
 //
