@@ -24,6 +24,26 @@
 		DC6EF624189839A200DF8EBF /* CardformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6EF623189839A200DF8EBF /* CardformTests.m */; };
 		DC6EF62F18984DB500DF8EBF /* Luhn.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6EF62E18984DB500DF8EBF /* Luhn.m */; };
 		DC6EF63018984DB500DF8EBF /* Luhn.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6EF62E18984DB500DF8EBF /* Luhn.m */; };
+		DC6EF6411898F0AB00DF8EBF /* VDKAmex.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6371898F0AB00DF8EBF /* VDKAmex.png */; };
+		DC6EF6421898F0AB00DF8EBF /* VDKAmex.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6371898F0AB00DF8EBF /* VDKAmex.png */; };
+		DC6EF6431898F0AB00DF8EBF /* VDKAmexCVV.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6381898F0AB00DF8EBF /* VDKAmexCVV.png */; };
+		DC6EF6441898F0AB00DF8EBF /* VDKAmexCVV.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6381898F0AB00DF8EBF /* VDKAmexCVV.png */; };
+		DC6EF6451898F0AB00DF8EBF /* VDKCreditCard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6391898F0AB00DF8EBF /* VDKCreditCard.png */; };
+		DC6EF6461898F0AB00DF8EBF /* VDKCreditCard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6391898F0AB00DF8EBF /* VDKCreditCard.png */; };
+		DC6EF6471898F0AB00DF8EBF /* VDKCVV.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63A1898F0AB00DF8EBF /* VDKCVV.png */; };
+		DC6EF6481898F0AB00DF8EBF /* VDKCVV.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63A1898F0AB00DF8EBF /* VDKCVV.png */; };
+		DC6EF6491898F0AB00DF8EBF /* VDKDinersClub.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63B1898F0AB00DF8EBF /* VDKDinersClub.png */; };
+		DC6EF64A1898F0AB00DF8EBF /* VDKDinersClub.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63B1898F0AB00DF8EBF /* VDKDinersClub.png */; };
+		DC6EF64B1898F0AB00DF8EBF /* VDKDiscover.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63C1898F0AB00DF8EBF /* VDKDiscover.png */; };
+		DC6EF64C1898F0AB00DF8EBF /* VDKDiscover.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63C1898F0AB00DF8EBF /* VDKDiscover.png */; };
+		DC6EF64D1898F0AB00DF8EBF /* VDKGenericCard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63D1898F0AB00DF8EBF /* VDKGenericCard.png */; };
+		DC6EF64E1898F0AB00DF8EBF /* VDKGenericCard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63D1898F0AB00DF8EBF /* VDKGenericCard.png */; };
+		DC6EF64F1898F0AB00DF8EBF /* VDKJCB.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63E1898F0AB00DF8EBF /* VDKJCB.png */; };
+		DC6EF6501898F0AB00DF8EBF /* VDKJCB.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63E1898F0AB00DF8EBF /* VDKJCB.png */; };
+		DC6EF6511898F0AB00DF8EBF /* VDKMastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63F1898F0AB00DF8EBF /* VDKMastercard.png */; };
+		DC6EF6521898F0AB00DF8EBF /* VDKMastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF63F1898F0AB00DF8EBF /* VDKMastercard.png */; };
+		DC6EF6531898F0AB00DF8EBF /* VDKVisa.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6401898F0AB00DF8EBF /* VDKVisa.png */; };
+		DC6EF6541898F0AB00DF8EBF /* VDKVisa.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6EF6401898F0AB00DF8EBF /* VDKVisa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +79,16 @@
 		DC6EF623189839A200DF8EBF /* CardformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardformTests.m; sourceTree = "<group>"; };
 		DC6EF62D18984DB500DF8EBF /* Luhn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Luhn.h; sourceTree = "<group>"; };
 		DC6EF62E18984DB500DF8EBF /* Luhn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Luhn.m; sourceTree = "<group>"; };
+		DC6EF6371898F0AB00DF8EBF /* VDKAmex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKAmex.png; sourceTree = "<group>"; };
+		DC6EF6381898F0AB00DF8EBF /* VDKAmexCVV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKAmexCVV.png; sourceTree = "<group>"; };
+		DC6EF6391898F0AB00DF8EBF /* VDKCreditCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKCreditCard.png; sourceTree = "<group>"; };
+		DC6EF63A1898F0AB00DF8EBF /* VDKCVV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKCVV.png; sourceTree = "<group>"; };
+		DC6EF63B1898F0AB00DF8EBF /* VDKDinersClub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKDinersClub.png; sourceTree = "<group>"; };
+		DC6EF63C1898F0AB00DF8EBF /* VDKDiscover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKDiscover.png; sourceTree = "<group>"; };
+		DC6EF63D1898F0AB00DF8EBF /* VDKGenericCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKGenericCard.png; sourceTree = "<group>"; };
+		DC6EF63E1898F0AB00DF8EBF /* VDKJCB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKJCB.png; sourceTree = "<group>"; };
+		DC6EF63F1898F0AB00DF8EBF /* VDKMastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKMastercard.png; sourceTree = "<group>"; };
+		DC6EF6401898F0AB00DF8EBF /* VDKVisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VDKVisa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +165,16 @@
 		DC6EF5FC189839A100DF8EBF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC6EF6371898F0AB00DF8EBF /* VDKAmex.png */,
+				DC6EF6381898F0AB00DF8EBF /* VDKAmexCVV.png */,
+				DC6EF6391898F0AB00DF8EBF /* VDKCreditCard.png */,
+				DC6EF63A1898F0AB00DF8EBF /* VDKCVV.png */,
+				DC6EF63B1898F0AB00DF8EBF /* VDKDinersClub.png */,
+				DC6EF63C1898F0AB00DF8EBF /* VDKDiscover.png */,
+				DC6EF63D1898F0AB00DF8EBF /* VDKGenericCard.png */,
+				DC6EF63E1898F0AB00DF8EBF /* VDKJCB.png */,
+				DC6EF63F1898F0AB00DF8EBF /* VDKMastercard.png */,
+				DC6EF6401898F0AB00DF8EBF /* VDKVisa.png */,
 				DC6EF5FD189839A100DF8EBF /* Cardform-Info.plist */,
 				DC6EF5FE189839A100DF8EBF /* InfoPlist.strings */,
 				DC6EF601189839A100DF8EBF /* main.m */,
@@ -237,9 +277,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6EF64B1898F0AB00DF8EBF /* VDKDiscover.png in Resources */,
+				DC6EF6511898F0AB00DF8EBF /* VDKMastercard.png in Resources */,
 				DC6EF60C189839A100DF8EBF /* Main_iPad.storyboard in Resources */,
+				DC6EF6471898F0AB00DF8EBF /* VDKCVV.png in Resources */,
+				DC6EF6411898F0AB00DF8EBF /* VDKAmex.png in Resources */,
 				DC6EF611189839A100DF8EBF /* Images.xcassets in Resources */,
+				DC6EF6531898F0AB00DF8EBF /* VDKVisa.png in Resources */,
+				DC6EF64F1898F0AB00DF8EBF /* VDKJCB.png in Resources */,
+				DC6EF6491898F0AB00DF8EBF /* VDKDinersClub.png in Resources */,
+				DC6EF64D1898F0AB00DF8EBF /* VDKGenericCard.png in Resources */,
+				DC6EF6451898F0AB00DF8EBF /* VDKCreditCard.png in Resources */,
 				DC6EF609189839A100DF8EBF /* Main_iPhone.storyboard in Resources */,
+				DC6EF6431898F0AB00DF8EBF /* VDKAmexCVV.png in Resources */,
 				DC6EF600189839A100DF8EBF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +298,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6EF6421898F0AB00DF8EBF /* VDKAmex.png in Resources */,
+				DC6EF64E1898F0AB00DF8EBF /* VDKGenericCard.png in Resources */,
+				DC6EF6501898F0AB00DF8EBF /* VDKJCB.png in Resources */,
+				DC6EF6521898F0AB00DF8EBF /* VDKMastercard.png in Resources */,
+				DC6EF6441898F0AB00DF8EBF /* VDKAmexCVV.png in Resources */,
+				DC6EF6461898F0AB00DF8EBF /* VDKCreditCard.png in Resources */,
 				DC6EF622189839A200DF8EBF /* InfoPlist.strings in Resources */,
+				DC6EF64C1898F0AB00DF8EBF /* VDKDiscover.png in Resources */,
+				DC6EF6541898F0AB00DF8EBF /* VDKVisa.png in Resources */,
+				DC6EF64A1898F0AB00DF8EBF /* VDKDinersClub.png in Resources */,
+				DC6EF6481898F0AB00DF8EBF /* VDKCVV.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
+@property (strong, nonatomic) IBOutlet UIView *mainView;
 @property (weak, nonatomic) IBOutlet UITextField *ccNumber;
 @property (weak, nonatomic) IBOutlet UIImageView *ccImage;
 @property (weak, nonatomic) IBOutlet UITextField *expMonth;
@@ -17,6 +19,11 @@
 @property (weak, nonatomic) IBOutlet UITextField *cvvNumber;
 @property (weak, nonatomic) IBOutlet UIImageView *cvvImage;
 
+@property (weak, nonatomic) IBOutlet UILabel *errorCCnum;
+@property (weak, nonatomic) IBOutlet UILabel *errorDate;
+@property (weak, nonatomic) IBOutlet UILabel *errorCVV;
+
 - (IBAction)submitData:(id)sender;
+//- (BOOL)performCardCheck:(NSString*) currString;
 
 @end

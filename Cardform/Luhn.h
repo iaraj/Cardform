@@ -10,4 +10,6 @@
 
 @interface Luhn : NSObject
 
++ (BOOL) validateString:(NSString *) ccString;
+
 @end
